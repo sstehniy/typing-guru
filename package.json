@@ -38,7 +38,7 @@
     "start": "nodemon --exec ts-node src/app.ts",
     "test-deploy": "npm run build:ui && npm start",
     "build:ui": "cd ../frontend && npm run build && cp -a build ../backend",
-    "deploy": "npm run build:ui && git add . && git commit -m 'new commit' && git push -u origin master"
+    "deploy": "npm run build:ui && tsc && git add . && git commit -m 'new commit' && git push -u origin master"
   },
   "author": "",
   "license": "ISC"

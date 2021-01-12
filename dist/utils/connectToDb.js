@@ -17,7 +17,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
 const uri = process.env.MONGODB_URI;
-const connectToDb = () => __awaiter(void 0, void 0, void 0, function* () {
+exports.connectToDb = () => __awaiter(void 0, void 0, void 0, function* () {
     yield mongoose_1.default.connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
@@ -35,5 +35,4 @@ const connectToDb = () => __awaiter(void 0, void 0, void 0, function* () {
       console.log('failed to drop the db');
     } */
 });
-exports.connectToDb = connectToDb;
 //# sourceMappingURL=connectToDb.js.map
