@@ -38,6 +38,7 @@ router.get("/", (_req, res, next) => __awaiter(void 0, void 0, void 0, function*
         res.status(200).json(wordsArray);
     }
     catch (error) {
+        console.log(error);
         next({ status: 500, message: "Failed to fetch the resource" });
     }
 }));

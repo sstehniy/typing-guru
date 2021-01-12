@@ -9,10 +9,7 @@ router.use(validateToken);
 
 router.get("/", async (req, res, next) => {
   try {
-    const allTests = await Test.find({}, { updatedAt: 0 }).populate(
-      "user",
-      "username"
-    );
+    const allTests = await Test.find({}, { updatedAt: 0 }).populate("user", "username");
     res.status(200).json(allTests.map(t => t.toJSON())); //eslint-disable-line
   } catch (error) {
     next({ status: 500, message: "Failed to fetch the resource" });
