@@ -34,7 +34,7 @@ app.use("/api/login", loginRouter);
 app.use("/api/tests", testsRouter);
 app.use("/api/words", wordsRouter);
 app.get("/*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../build", "index.html"));
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
 app.use(errorHandler);
