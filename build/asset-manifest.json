@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7189cf68.chunk.js",
+    "main.js.map": "/static/js/main.7189cf68.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c47b213d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c47b213d.js.map",
+    "static/js/2.536379ba.chunk.js": "/static/js/2.536379ba.chunk.js",
+    "static/js/2.536379ba.chunk.js.map": "/static/js/2.536379ba.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.03c44107ce3097c4dd58fbbe8bbaf3cd.js": "/precache-manifest.03c44107ce3097c4dd58fbbe8bbaf3cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.536379ba.chunk.js.LICENSE.txt": "/static/js/2.536379ba.chunk.js.LICENSE.txt",
+    "static/media/ascending-sort.f26890cc.svg": "/static/media/ascending-sort.f26890cc.svg",
+    "static/media/big-funnel.ca57128f.svg": "/static/media/big-funnel.ca57128f.svg",
+    "static/media/calendar.c5127f4b.svg": "/static/media/calendar.c5127f4b.svg",
+    "static/media/descending-sort.5bcd81be.svg": "/static/media/descending-sort.5bcd81be.svg",
+    "static/media/electric-keyboard.6dae81b8.svg": "/static/media/electric-keyboard.6dae81b8.svg",
+    "static/media/exit.5f117edd.svg": "/static/media/exit.5f117edd.svg",
+    "static/media/fast.05748183.svg": "/static/media/fast.05748183.svg",
+    "static/media/history.d08afbae.svg": "/static/media/history.d08afbae.svg",
+    "static/media/keyboard.92471147.svg": "/static/media/keyboard.92471147.svg",
+    "static/media/login.34deb6f1.svg": "/static/media/login.34deb6f1.svg",
+    "static/media/pw_hidden.78b2764f.svg": "/static/media/pw_hidden.78b2764f.svg",
+    "static/media/pw_visisble.e51db4bb.svg": "/static/media/pw_visisble.e51db4bb.svg",
+    "static/media/ranking.ce280167.svg": "/static/media/ranking.ce280167.svg",
+    "static/media/rating-star-empty.e3b4bba8.svg": "/static/media/rating-star-empty.e3b4bba8.svg",
+    "static/media/rating-star-filled.734a20c2.svg": "/static/media/rating-star-filled.734a20c2.svg",
+    "static/media/retry-icon.ac14813f.svg": "/static/media/retry-icon.ac14813f.svg",
+    "static/media/seo-and-web.39c8ea53.svg": "/static/media/seo-and-web.39c8ea53.svg",
+    "static/media/settings.2dfb9ff4.svg": "/static/media/settings.2dfb9ff4.svg",
+    "static/media/statistics.aaaf9d01.svg": "/static/media/statistics.aaaf9d01.svg",
+    "static/media/typewriter.1756b889.svg": "/static/media/typewriter.1756b889.svg",
+    "static/media/user.1f3982cf.svg": "/static/media/user.1f3982cf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c47b213d.js",
+    "static/js/2.536379ba.chunk.js",
+    "static/js/main.7189cf68.chunk.js"
+  ]
+}
