@@ -26,6 +26,7 @@ router.get("/", async (_req, res, next) => {
     }
     res.status(200).json(wordsArray);
   } catch (error) {
+    console.log(error);
     next({ status: 500, message: "Failed to fetch the resource" });
   }
 });
