@@ -34,7 +34,7 @@ app.use("/api/login", login_1.default);
 app.use("/api/tests", tests_1.default);
 app.use("/api/words", words_1.default);
 app.get("/*", (req, res) => {
-    res.sendFile(path_1.default.join(__dirname, "build", "index.html"));
+    res.sendFile(path_1.default.join(__dirname, "../build", "index.html"));
 });
 app.use(errorHandler_1.errorHandler);
 void connectToDb_1.connectToDb();
