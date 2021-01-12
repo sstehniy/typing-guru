@@ -21,7 +21,10 @@ const router = express_1.Router();
 const url = "https://www.mit.edu/~ecprice/wordlist.10000";
 router.get("/", (_req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const browser = yield puppeteer_1.default.launch();
+        const browser = yield puppeteer_1.default.launch({
+            headless: true,
+            args: ["--no-sandbox", "--disable-setuid-sandbox"],
+        });
         const page = yield browser.newPage();
         yield page.goto(url);
         const wordsHtml = yield page.evaluate(() => {

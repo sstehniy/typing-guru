@@ -10,7 +10,10 @@ const url = "https://www.mit.edu/~ecprice/wordlist.10000";
 
 router.get("/", async (_req, res, next) => {
   try {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     const page = await browser.newPage();
     await page.goto(url);
     const wordsHtml = await page.evaluate(() => {
